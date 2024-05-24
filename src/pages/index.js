@@ -1,3 +1,9 @@
+import { Toolbox } from "../components/index";
+
 export default function Home() {
-  return <div className="underline">HOME PAGE</div>;
+  return (
+    <div className="">
+      <Toolbox />
+    </div>
+  );
 }
